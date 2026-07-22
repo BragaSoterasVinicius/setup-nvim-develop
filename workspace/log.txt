@@ -1,0 +1,284 @@
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/opt/nvim/share/nvim/runtime/ftplugin.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/ftplugin.vim
+sourcing "/opt/nvim/share/nvim/runtime/indent.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/home/dev/.config/nvim/init.lua"
+                                          Error in /home/dev/.config/nvim/init.lua:
+E5113: Lua chunk: Vim:E739: Cannot create directory /home/dev/.local/state/nvim/lazy: permission denied
+stack traceback:
+	[C]: in function 'mkdir'
+	...v/.local/share/nvim/lazy/lazy.nvim/lua/lazy/pkg/init.lua:79: in function 'update'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/plugin.lua:381: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:37: in function 'setup'
+	...e/dev/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:102: in function 'setup'
+	/home/dev/.config/nvim/init.lua:17: in main chunk
+finished sourcing /home/dev/.config/nvim/init.lua
+sourcing "/opt/nvim/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /opt/nvim/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /opt/nvim/share/nvim/runtime/filetype.lua:0
+continuing in /opt/nvim/share/nvim/runtime/filetype.lua
+finished sourcing /opt/nvim/share/nvim/runtime/filetype.lua
+sourcing "/opt/nvim/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/opt/nvim/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/syntax/synload.vim
+continuing in /opt/nvim/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /opt/nvim/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/home/dev/.local/state/nvim/shada/main.shada" info marks oldfiles FAILED
+
+
+E886: Failed to create directory /home/dev/.local/state/nvim/shada for writing ShaDa file: permission denied
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/opt/nvim/share/nvim/runtime/ftplugin.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/ftplugin.vim
+sourcing "/opt/nvim/share/nvim/runtime/indent.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/home/dev/.config/nvim/init.lua"
+                                          Error in /home/dev/.config/nvim/init.lua:
+E5113: Lua chunk: Vim:E739: Cannot create directory /home/dev/.local/state/nvim/lazy: permission denied
+stack traceback:
+	[C]: in function 'mkdir'
+	...v/.local/share/nvim/lazy/lazy.nvim/lua/lazy/pkg/init.lua:79: in function 'update'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/plugin.lua:381: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:37: in function 'setup'
+	...e/dev/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:102: in function 'setup'
+	/home/dev/.config/nvim/init.lua:17: in main chunk
+finished sourcing /home/dev/.config/nvim/init.lua
+sourcing "/opt/nvim/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /opt/nvim/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /opt/nvim/share/nvim/runtime/filetype.lua:0
+continuing in /opt/nvim/share/nvim/runtime/filetype.lua
+finished sourcing /opt/nvim/share/nvim/runtime/filetype.lua
+sourcing "/opt/nvim/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/opt/nvim/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/syntax/synload.vim
+continuing in /opt/nvim/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /opt/nvim/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/home/dev/.local/state/nvim/shada/main.shada" info marks oldfiles FAILED
+
+E886: Failed to create directory /home/dev/.local/state/nvim/shada for writing ShaDa file: permission denied
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/opt/nvim/share/nvim/runtime/ftplugin.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/ftplugin.vim
+sourcing "/opt/nvim/share/nvim/runtime/indent.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/indent.vim
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+could not source "/root/.config/nvim/init.vim"
+could not source "/etc/xdg//nvim/init.vim"
+sourcing "/opt/nvim/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /opt/nvim/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /opt/nvim/share/nvim/runtime/filetype.lua:0
+continuing in /opt/nvim/share/nvim/runtime/filetype.lua
+finished sourcing /opt/nvim/share/nvim/runtime/filetype.lua
+sourcing "/opt/nvim/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/opt/nvim/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/syntax/synload.vim
+continuing in /opt/nvim/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /opt/nvim/share/nvim/runtime/syntax/syntax.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/gzip.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+line 3: sourcing "/opt/nvim/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /opt/nvim/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/matchit.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/matchparen.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+line 7: sourcing "/opt/nvim/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /opt/nvim/share/nvim/runtime/plugin/netrwPlugin.vim
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/netrwPlugin.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/rplugin.vim"  1: /workspace/vim/_core/defaults
+  2: /opt/nvim/share/nvim/runtime/lua/vim/tty.lua
+  3: /opt/nvim/share/nvim/runtime/ftplugin.vim
+  4: /opt/nvim/share/nvim/runtime/indent.vim
+  5: /opt/nvim/share/nvim/runtime/filetype.lua
+  6: /opt/nvim/share/nvim/runtime/syntax/syntax.vim
+  7: /opt/nvim/share/nvim/runtime/syntax/synload.vim
+  8: /opt/nvim/share/nvim/runtime/plugin/gzip.vim
+  9: /opt/nvim/share/nvim/runtime/plugin/matchit.vim
+ 10: /opt/nvim/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+ 11: /opt/nvim/share/nvim/runtime/plugin/matchparen.vim
+ 12: /opt/nvim/share/nvim/runtime/plugin/netrwPlugin.vim
+ 13: /opt/nvim/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+ 14: /opt/nvim/share/nvim/runtime/plugin/rplugin.vim
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/rplugin.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/tarPlugin.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/tutor.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/zipPlugin.vim
+sourcing "/opt/nvim/share/nvim/runtime/plugin/editorconfig.lua"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/editorconfig.lua
+sourcing "/opt/nvim/share/nvim/runtime/plugin/man.lua"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/man.lua
+sourcing "/opt/nvim/share/nvim/runtime/plugin/net.lua"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/net.lua
+sourcing "/opt/nvim/share/nvim/runtime/plugin/osc52.lua"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/osc52.lua
+sourcing "/opt/nvim/share/nvim/runtime/plugin/shada.lua"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/shada.lua
+sourcing "/opt/nvim/share/nvim/runtime/plugin/spellfile.lua"
+finished sourcing /opt/nvim/share/nvim/runtime/plugin/spellfile.lua
+not found in 'packpath': "pack/*/start/*"
+not found in 'packpath': "start/*"
+not found in runtime path: "plugin/**/*"
+Reading ShaDa file "/root/.local/state/nvim/shada/main.shada" info marks oldfiles
+
+
+--- Terminal info --- {{{
+&term: xterm
+using terminfo database
+
+Boolean capabilities:
+  back_color_erase: true
+  truecolor ('Tc' or 'RGB'): false
+  extended underline ('Su'): false
+
+Numeric capabilities: (-1 for unknown)
+  lines: 24
+  columns: 80
+  max_colors: 80
+
+String capabilities:
+  carriage_return                 = ^M
+  change_scroll_region            = ^[[%i%p1%d;%p2%dr
+  clear_screen                    = ^[[H^[[2J
+  clr_eol                         = ^[[K
+  clr_eos                         = ^[[J
+  cursor_address                  = ^[[%i%p1%d;%p2%dH
+  cursor_down                     = ^@
+  cursor_invisible                = ^[[?25l
+  cursor_left                     = ^H
+  cursor_home                     = ^[[H
+  cursor_normal                   = ^[[?25h
+  cursor_up                       = ^[[A
+  cursor_right                    = ^[[C
+  delete_line                     = ^[[M
+  enter_blink_mode                = ^[[5m
+  enter_bold_mode                 = ^[[1m
+  enter_ca_mode                   = ^[[?1049h^[[22;0;0t
+  enter_dim_mode                  = ^[[2m
+  enter_italics_mode              = ^[[3m
+  enter_reverse_mode              = ^[[7m
+  enter_secure_mode               = ^[[8m
+  enter_standout_mode             = ^[[7m
+  enter_underline_mode            = ^[[4m
+  erase_chars                     = ^[[%p1%dX
+  exit_attribute_mode             = ^[(B^[[m
+  exit_ca_mode                    = ^[[?1049l^[[23;0;0t
+  from_status_line                = ^G
+  insert_line                     = ^[[L
+  keypad_local                    = ^[[?1l^[>
+  keypad_xmit                     = ^[[?1h^[=
+  parm_delete_line                = ^[[%p1%dM
+  parm_down_cursor                = ^[[%p1%dB
+  parm_insert_line                = ^[[%p1%dL
+  parm_left_cursor                = ^[[%p1%dD
+  parm_right_cursor               = ^[[%p1%dC
+  parm_up_cursor                  = ^[[%p1%dA
+  set_a_background                = ^[[%?%p1%{8}%<%t4%p1%d%e%p1%{16}%<%t10%p1%{8}%-%d%e48;5;%p1%d%;m
+  set_a_foreground                = ^[[%?%p1%{8}%<%t3%p1%d%e%p1%{16}%<%t9%p1%{8}%-%d%e38;5;%p1%d%;m
+  set_attributes                  = %?%p9%t^[(0%e^[(B%;^[[0%?%p6%t;1%;%?%p5%t;2%;%?%p2%t;4%;%?%p1%p3%|%t;7%;%?%p4%t;5%;%?%p7%t;8%;m
+  set_lr_margin                   = ^[[?69h^[[%i%p1%d;%p2%ds
+  to_status_line                  = ^[]0;
+  reset_cursor_style (Se)         = ^[[0 q
+  set_cursor_style (Ss)           = ^[[%p1%d q
+  enter_strikethrough_mode (smxx) = ^[[9m
+  set_rgb_foreground (setrgbf)    = ^[[38;2;%p1%d;%p2%d;%p3%dm
+  set_rgb_background (setrgbb)    = ^[[48;2;%p1%d;%p2%d;%p3%dm
+  set_cursor_color (Cs)           = ^[]12;%p1%s^G
+  reset_cursor_color (Cr)         = ^[]112^G
+  set_underline_style (Smulx)     = ^[[4:%p1%dm
+  key_beg                         = ^[OE
+  key_btab                        = ^[[Z
+  key_dc                          = ^[[3~, key_sdc = ^[[3;2~
+  key_end                         = ^[OF, key_send = ^[[1;2F
+  key_home                        = ^[OH, key_shome = ^[[1;2H
+  key_ic                          = ^[[2~, key_sic = ^[[2;2~
+  key_npage                       = ^[[6~
+  key_ppage                       = ^[[5~
+  key_left                        = ^[OD, key_sleft = ^[[1;2D
+  key_right                       = ^[OC, key_sright = ^[[1;2C
+  key_f2                          = ^[OQ
+  key_f3                          = ^[OR
+  key_f4                          = ^[OS
+  key_f5                          = ^[[15~
+  key_f6                          = ^[[17~
+  key_f7                          = ^[[18~
+  key_f8                          = ^[[19~
+  key_f9                          = ^[[20~
+  key_f10                         = ^[[21~
+  key_f11                         = ^[[23~
+  key_f12                         = ^[[24~
+  key_f13                         = ^[[1;2P
+  key_f14                         = ^[[1;2Q
+  key_f15                         = ^[[1;2R
+  key_f16                         = ^[[1;2S
+  key_f17                         = ^[[15;2~
+  key_f18                         = ^[[17;2~
+  key_f19                         = ^[[18;2~
+  key_f20                         = ^[[19;2~
+  key_f21                         = ^[[20;2~
+  key_f22                         = ^[[21;2~
+  key_f23                         = ^[[23;2~
+  key_f24                         = ^[[24;2~
+  key_f25                         = ^[[1;5P
+  key_f26                         = ^[[1;5Q
+  key_f27                         = ^[[1;5R
+  key_f28                         = ^[[1;5S
+  key_f29                         = ^[[15;5~
+  key_f30                         = ^[[17;5~
+  key_f31                         = ^[[18;5~
+  key_f32                         = ^[[19;5~
+  key_f33                         = ^[[20;5~
+  key_f34                         = ^[[21;5~
+  key_f35                         = ^[[23;5~
+  key_f36                         = ^[[24;5~
+  key_f37                         = ^[[1;6P
+  key_f38                         = ^[[1;6Q
+  key_f39                         = ^[[1;6R
+  key_f40                         = ^[[1;6S
+  key_f41                         = ^[[15;6~
+  key_f42                         = ^[[17;6~
+  key_f43                         = ^[[18;6~
+  key_f44                         = ^[[19;6~
+  key_f45                         = ^[[20;6~
+  key_f46                         = ^[[21;6~
+  key_f47                         = ^[[23;6~
+  key_f48                         = ^[[24;6~
+  key_f49                         = ^[[1;3P
+  key_f50                         = ^[[1;3Q
+  key_f51                         = ^[[1;3R
+  key_f52                         = ^[[1;3S
+  key_f53                         = ^[[15;3~
+  key_f54                         = ^[[17;3~
+  key_f55                         = ^[[18;3~
+  key_f56                         = ^[[19;3~
+  key_f57                         = ^[[20;3~
+  key_f58                         = ^[[21;3~
+  key_f59                         = ^[[23;3~
+  key_f60                         = ^[[24;3~
+  key_f61                         = ^[[1;4P
+  key_f62                         = ^[[1;4Q
+  key_f63                         = ^[[1;4R
+}}}
+
+
+Writing ShaDa file "/root/.local/state/nvim/shada/main.shada"

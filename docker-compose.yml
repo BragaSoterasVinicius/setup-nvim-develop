@@ -1,0 +1,30 @@
+services:
+  dev:
+    build: .
+    user: dev
+    container_name: java-dev
+
+    stdin_open: true
+    tty: true
+
+    working_dir: /workspace
+
+    volumes:
+      - ./workspace:/workspace
+      - ./nvim:/home/dev/.config/nvim
+       # Persist plugins + Mason
+      - nvim-data:/home/dev/.local/share/nvim
+
+      # Persist Neovim state (optional but nice)
+      - nvim-state:/home/dev/.local/state/nvim
+
+      - maven-cache:/home/dev/.m2
+      - gradle-cache:/home/dev/.gradle
+
+      - ~/.gitconfig:/home/dev/.gitconfig:ro
+      - ~/.ssh:/home/dev/.ssh:ro
+volumes:
+  nvim-data:
+  nvim-state:
+  maven-cache:
+  gradle-cache:
