@@ -66,6 +66,7 @@ RUN mkdir -p \
     /home/dev/.local/state/nvim \
     /home/dev/.m2 \
     /home/dev/.gradle \
+    /home/dev/.cache \
  && chown -R dev:dev /home/dev
 
 USER dev

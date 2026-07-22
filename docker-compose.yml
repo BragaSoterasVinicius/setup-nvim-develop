@@ -12,19 +12,22 @@ services:
     volumes:
       - ./workspace:/workspace
       - ./nvim:/home/dev/.config/nvim
+
        # Persist plugins + Mason
       - nvim-data:/home/dev/.local/share/nvim
-
+      - ./.nvim-cache:/home/dev/.cache
       # Persist Neovim state (optional but nice)
       - nvim-state:/home/dev/.local/state/nvim
 
-      - maven-cache:/home/dev/.m2
-      - gradle-cache:/home/dev/.gradle
+      # Java caches
+      - ./.m2:/home/dev/.m2
+      - ./.gradle:/home/dev/.gradle
 
       - ~/.gitconfig:/home/dev/.gitconfig:ro
       - ~/.ssh:/home/dev/.ssh:ro
 volumes:
   nvim-data:
   nvim-state:
+  .nvim-cache:
   maven-cache:
   gradle-cache:
